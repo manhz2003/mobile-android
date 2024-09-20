@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Bao bọc nội dung cần căn giữa -->
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+
+        <!-- Tiêu đề ứng dụng -->
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiểm tra giữa kỳ"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+        <TextView
+            android:id="@+id/appNamea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Môn phát triển ứng dụng cho thiết bị di động"
+            android:textSize="18sp"
+            android:layout_marginBottom="60dp"/>
+
+        <!-- Thông tin sinh viên -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mã sinh viên: 20210719"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Họ tên: Nguyễn Thế Mạnh"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Ngày sinh: 05/03/2003"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Lớp: IT3"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/StartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

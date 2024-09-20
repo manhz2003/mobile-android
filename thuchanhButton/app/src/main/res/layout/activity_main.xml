@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- EditText để nhập tên công việc -->
+    <EditText
+        android:id="@+id/editTextTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên công việc"
+        android:inputType="text" />
+
+    <!-- ToggleButton: Chuyển đổi chế độ sắp xếp -->
+    <ToggleButton
+        android:id="@+id/toggleButtonSortMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="mặc định"
+        android:textOff="Sắp xếp theo thứ tự thêm vào" />
+
+    <!-- Switch: Bật/tắt chế độ chỉ hiển thị công việc chưa hoàn thành -->
+    <Switch
+        android:id="@+id/switchShowIncomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chỉ hiển thị các nhiệm vụ chưa hoàn thành" />
+
+    <!-- RecyclerView: Danh sách công việc -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Button: Thêm công việc mới -->
+    <Button
+        android:id="@+id/buttonAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm công việc mới" />
+
+    <!-- FloatingActionButton: Xóa các công việc đã hoàn thành -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabClearCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_delete" />
+</LinearLayout>

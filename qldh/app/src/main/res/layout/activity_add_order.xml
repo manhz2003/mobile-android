@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm"/>
+
+    <EditText
+        android:id="@+id/editTextQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextProductName"
+        android:hint="Số lượng"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuantity"
+        android:hint="Giá tiền"
+        android:inputType="numberDecimal"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupProductType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPrice"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonType1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điện tử"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonType2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời trang"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxGiftWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupProductType"
+        android:text="Gói quà"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxWarranty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxGiftWrap"
+        android:text="Bảo hành"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupDelivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxWarranty"
+        android:orientation="horizontal">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipFastDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giao nhanh"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipStandardDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giao thường"/>
+    </com.google.android.material.chip.ChipGroup>
+
+
+    <Button
+        android:id="@+id/buttonCalculatePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính giá"
+        android:layout_below="@id/chipGroupDelivery"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại trang chủ"
+        android:layout_below="@id/buttonCalculatePrice"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

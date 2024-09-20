@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MSV"/>
+
+    <TextView
+        android:id="@+id/tvHoTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ Tên"/>
+
+    <TextView
+        android:id="@+id/tvNgaySinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày Sinh"/>
+
+    <TextView
+        android:id="@+id/tvLop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp"/>
+
+    <TextView
+        android:id="@+id/tvDiemTrungBinh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm Trung Bình 1"/>
+
+    <TextView
+        android:id="@+id/tvDiemTrungBinh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm Trung Bình 2"/>
+
+    <TextView
+        android:id="@+id/tvDiemTrungBinh3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm Trung Bình 3"/>
+</LinearLayout>

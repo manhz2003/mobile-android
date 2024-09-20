@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etMsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên" />
+
+    <EditText
+        android:id="@+id/etHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ tên" />
+
+    <EditText
+        android:id="@+id/etNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày sinh (dd/MM/yyyy)" />
+
+    <EditText
+        android:id="@+id/etLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp" />
+
+    <EditText
+        android:id="@+id/etDiemC1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm chuyên cần môn C"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etDiemGiuaKy1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm giữa kỳ môn C" />
+
+    <EditText
+        android:id="@+id/etDiemCuoiKy1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm cuối kỳ môn C" />
+
+    <EditText
+        android:id="@+id/etDiemC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm chuyên cần môn .net"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etDiemGiuaKy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm giữa kỳ môn .net" />
+
+    <EditText
+        android:id="@+id/etDiemCuoiKy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm cuối kỳ môn .net" />
+
+    <EditText
+        android:id="@+id/etDiemC3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm chuyên cần môn CSDL"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etDiemGiuaKy3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm giữa kỳ môn CSDL" />
+
+    <EditText
+        android:id="@+id/etDiemCuoiKy3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm cuối kỳ môn CSDL" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextStudentId" type="id" />
+    <item name="editTextFullName" type="id" />
+    <item name="editTextMath" type="id" />
+    <item name="editTextPhysics" type="id" />
+    <item name="editTextChemistry" type="id" />
+    <item name="editTextLiterature" type="id" />
+    <item name="editTextEnglish" type="id" />
+    <item name="buttonCalculate" type="id" />
+    <item name="textViewResult" type="id" />
+</resources>

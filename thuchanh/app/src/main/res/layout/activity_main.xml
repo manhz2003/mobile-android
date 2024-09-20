@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng quản lý điểm sinh viên"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Mã SV -->
+    <EditText
+        android:id="@+id/editTextStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="Mã SV" />
+
+    <!-- Họ tên -->
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStudentId"
+        android:hint="Họ tên" />
+
+    <!-- Điểm các môn học -->
+    <EditText
+        android:id="@+id/editTextMath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFullName"
+        android:hint="Toán" />
+
+    <EditText
+        android:id="@+id/editTextPhysics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextMath"
+        android:hint="Lý" />
+
+    <EditText
+        android:id="@+id/editTextChemistry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhysics"
+        android:hint="Hóa" />
+
+    <EditText
+        android:id="@+id/editTextLiterature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextChemistry"
+        android:hint="Văn" />
+
+    <EditText
+        android:id="@+id/editTextEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLiterature"
+        android:hint="Anh" />
+
+    <!-- Button tính điểm -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEnglish"
+        android:text="Tính điểm" />
+
+    <!-- TextView hiển thị kết quả -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCalculate"
+        android:text="Điểm trung bình:"
+        android:textSize="18sp" />
+
+    <!-- Khoảng cách -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_below="@id/textViewResult" />
+
+</RelativeLayout>

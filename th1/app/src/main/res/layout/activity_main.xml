@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới thiệu hệ điều hành Android"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android là một hệ điều hành mã nguồn mở được phát triển bởi Google,
+             dựa trên nhân Linux. Android được thiết kế chủ yếu cho các thiết bị di động như
+             điện thoại thông minh và máy tính bảng, nhưng cũng được sử dụng trên các thiết bị
+              khác như đồng hồ thông minh, TV và ô tô. Hệ điều hành Android cung cấp một nền tảng
+              mạnh mẽ và linh hoạt cho các nhà phát triển để tạo ra các ứng dụng phong phú và hấp dẫn."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Các bước phát triển ứng dụng với Android"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Cài Đặt Môi Trường Phát Triển\n2. Tạo Dự Án Mới\n3. Thiết Kế Giao Diện
+             Người Dùng (UI)\n4. Viết Mã Java\n5. Xây Dựng và Chạy Ứng Dụng"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới thiệu Gradle trong Android"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gradle là một công cụ xây dựng mạnh mẽ và linh hoạt được sử dụng để tự
+            động hóa các quy trình xây dựng phần mềm. Trong Android, Gradle giúp quản lý các phụ thuộc,
+             xây dựng và đóng gói ứng dụng."
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>
